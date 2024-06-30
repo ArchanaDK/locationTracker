@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
+    
         <script>
             L_NO_TOUCH = false;
             L_DISABLE_3D = false;
         </script>
-
+    
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
@@ -17,15 +17,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-
+    
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_8bac78460f763b6475924238dc1eb06f {
+                #map_0fe895e94e609e51fe740f87d1fc80c8 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -34,19 +34,19 @@
                 }
                 .leaflet-container { font-size: 1rem; }
             </style>
-
+        
 </head>
 <body>
-
-
-            <div class="folium-map" id="map_8bac78460f763b6475924238dc1eb06f" ></div>
-
+    
+    
+            <div class="folium-map" id="map_0fe895e94e609e51fe740f87d1fc80c8" ></div>
+        
 </body>
 <script>
-
-
-            var map_8bac78460f763b6475924238dc1eb06f = L.map(
-                "map_8bac78460f763b6475924238dc1eb06f",
+    
+    
+            var map_0fe895e94e609e51fe740f87d1fc80c8 = L.map(
+                "map_0fe895e94e609e51fe740f87d1fc80c8",
                 {
                     center: [22.3511148, 78.6677428],
                     crs: L.CRS.EPSG3857,
@@ -56,38 +56,38 @@
                 }
             );
 
+            
 
-
-
-
-            var tile_layer_2e1b1619654e66b7d95aaacf66f39d90 = L.tileLayer(
+        
+    
+            var tile_layer_736fab320fbe1249d28b67064ff85b22 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
-
-
-            tile_layer_2e1b1619654e66b7d95aaacf66f39d90.addTo(map_8bac78460f763b6475924238dc1eb06f);
-
-
-            var marker_73587c79a17b928372338c23a97d16c7 = L.marker(
+        
+    
+            tile_layer_736fab320fbe1249d28b67064ff85b22.addTo(map_0fe895e94e609e51fe740f87d1fc80c8);
+        
+    
+            var marker_fd85555358cc52589c238766d32e3e3e = L.marker(
                 [22.3511148, 78.6677428],
                 {}
-            ).addTo(map_8bac78460f763b6475924238dc1eb06f);
+            ).addTo(map_0fe895e94e609e51fe740f87d1fc80c8);
+        
+    
+        var popup_5c6c6c5cfa040db67a0815663d4dd078 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_6b145294a31646df7a3fc72f76d1cc7b = $(`<div id="html_6b145294a31646df7a3fc72f76d1cc7b" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+                popup_5c6c6c5cfa040db67a0815663d4dd078.setContent(html_6b145294a31646df7a3fc72f76d1cc7b);
+            
+        
 
-        var popup_1849c7ca72ed22ca90c60b8e5163fcd4 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_7a81111939435b9e9df84479b3731cb3 = $(<div id="html_7a81111939435b9e9df84479b3731cb3" style="width: 100.0%; height: 100.0%;">India</div>)[0];
-                popup_1849c7ca72ed22ca90c60b8e5163fcd4.setContent(html_7a81111939435b9e9df84479b3731cb3);
-
-
-
-        marker_73587c79a17b928372338c23a97d16c7.bindPopup(popup_1849c7ca72ed22ca90c60b8e5163fcd4)
+        marker_fd85555358cc52589c238766d32e3e3e.bindPopup(popup_5c6c6c5cfa040db67a0815663d4dd078)
         ;
 
-
-
+        
+    
 </script>
 </html>
